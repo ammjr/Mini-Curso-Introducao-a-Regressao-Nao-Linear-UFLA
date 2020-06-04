@@ -18,18 +18,18 @@ coef(reg_lewis)
 coef(reg_page)
 coef(reg_henderson)
 
-#coeficiente de determinação
+#coeficiente de determinaÃ§Ã£o
 library(qpcR)
 Rsq(reg_lewis)
 Rsq(reg_page)
 Rsq(reg_henderson)
 
-# desvio padrão residual
+# desvio padrÃ£o residual
 summary(reg_lewis)$sigma
 summary(reg_page)$sigma
 summary(reg_henderson)$sigma
 
-# critério de Akaike
+# critÃ©rio de Akaike
 AIC(reg_lewis)
 AIC(reg_page)
 AIC(reg_henderson)
